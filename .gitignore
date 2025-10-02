@@ -1,0 +1,90 @@
+# Data folders
+data/
+datasets/
+*.zip
+*.tar
+*.gz
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.h5
+*.pkl
+*.ckpt
+checkpoints/
+saved_models/
+weights/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Claude specific
+.claude/
+
+# Logs and temporary files
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+
+# Environment variables
+.env
+.env.local
+
+# System files
+Thumbs.db
+desktop.ini
+
+# Output folders that might be generated
+outputs/
+results/
+runs/
+experiments/
+
+# Large binary files
+*.bin
+*.npy
+*.npz
+
+# Wandb
+wandb/
+
+# Tensorboard
+events.out.tfevents.*
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*.cover
+
+# Package managers
+pip-log.txt
+pip-delete-this-directory.txt
